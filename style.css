@@ -1,0 +1,26 @@
+body{
+    display : flex ; 
+    height : 100vh;
+    justify-content: center;
+    align-items:center;
+}
+
+
+
+.outer{
+    height:700px;
+    width: 400px;
+    display :flex;
+    border-radius: 5px;
+    
+    background-color: aqua;
+}
+
+.screen{
+    height :20px;
+    width : 90%; 
+    background-color: red;
+    padding : 5px 5px ; 
+    margin : 20px 20px;
+    border-radius: 5px 5px 0px  0px;
+}
